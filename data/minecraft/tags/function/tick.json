@@ -1,0 +1,8 @@
+{
+    "values": [
+      "capture_the_flag:red_flag_break",
+      "capture_the_flag:blue_flag_break",
+      "capture_the_flag:red_flag_die",
+      "capture_the_flag:blue_flag_die"
+    ]
+  }
