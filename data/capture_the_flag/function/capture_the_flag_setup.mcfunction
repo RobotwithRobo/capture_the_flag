@@ -4,4 +4,6 @@ scoreboard objectives add blue_flag_break minecraft.mined:blue_banner
 scoreboard objectives add red_flag_break minecraft.mined:red_banner
 scoreboard objectives add blue_flag_placer minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add red_flag_placer minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add Points dummy
+scoreboard objectives setdisplay sidebar Points
 give @s carrot_on_a_stick[custom_name="Blue Flag Placer"]
