@@ -6,5 +6,7 @@ scoreboard objectives add blue_flag_placer minecraft.used:minecraft.carrot_on_a_
 scoreboard objectives add red_flag_placer minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add Points dummy
 scoreboard objectives setdisplay sidebar Points
+scoreboard objectives add Health health
+scoreboard objectives setdisplay list Health
 give @s carrot_on_a_stick[custom_name="Blue Flag Placer"]
 give @s warped_fungus_on_a_stick[custom_name="Red Flag Placer"]
