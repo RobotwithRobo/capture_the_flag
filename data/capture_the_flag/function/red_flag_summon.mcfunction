@@ -1,1 +1,1 @@
-execute at @e[tag=blue_return_point,limit=1] run setblock ~ ~ ~ red_banner
+execute at @e[tag=red_return_point,limit=1] run setblock ~ ~ ~ red_banner
