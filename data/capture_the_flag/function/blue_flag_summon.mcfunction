@@ -1,0 +1,1 @@
+execute at @e[tag=blue_return_point,limit=1] run setblock ~ ~ ~ blue_banner
