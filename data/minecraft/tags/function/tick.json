@@ -5,6 +5,8 @@
       "capture_the_flag:red_flag_die",
       "capture_the_flag:blue_flag_die",
       "capture_the_flag:blue_capture_point_setup",
-      "capture_the_flag:blue_check_for_capture"
+      "capture_the_flag:blue_check_for_capture",
+      "capture_the_flag:red_capture_point_setup",
+      "capture_the_flag:red_check_for_capture"
     ]
   }

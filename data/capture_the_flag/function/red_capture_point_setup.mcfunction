@@ -1,0 +1,2 @@
+execute as @a[scores={red_flag_placer=1..}] at @a[scores={red_flag_placer=1..}] if predicate capture_the_flag:red_flag_place run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b, Tags:["red_return_point"]}
+    execute at @a[scores={red_flag_placer=1..}] run scoreboard players reset @a[scores={red_flag_placer=1..}] red_flag_placer
