@@ -5,7 +5,8 @@ give @s[team=red] iron_leggings[trim={pattern:silence,material:redstone},unbreak
 give @s[team=blue] iron_boots[trim={pattern:silence,material:lapis},unbreakable={}]
 give @s[team=red] iron_boots[trim={pattern:silence,material:redstone},unbreakable={}]
 give @s shield[unbreakable={}]
-give @s bow[unbreakable={},enchantments={infinity:1}]
+give @s bow[unbreakable={},enchantments={infinity:1,power:2}]
+give @s minecraft:crossbow[minecraft:enchantments={infinity:1,quick_charge:2},minecraft:unbreakable={}]
 give @s iron_sword[unbreakable={}]
 give @s cooked_beef 64
 give @s golden_apple 5
