@@ -8,6 +8,9 @@ scoreboard objectives add Points dummy
 scoreboard objectives setdisplay sidebar Points
 scoreboard objectives add Health health
 scoreboard objectives setdisplay list Health
+scoreboard objectives add Kills minecraft.custom:minecraft.player_kills
+scoreboard objectives setdisplay below_name Kills
+scoreboard objectives add Powers dummy
 team add blue
 team add red
 team modify blue color blue
