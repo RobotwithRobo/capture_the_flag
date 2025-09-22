@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Powers",
+  "inputs": [],
+  "pause": false,
+  "after_action": "none",
+  "actions": [
+    {
+      "label": "Invisibility",
+      "tooltip": "120 Power Points",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function capture_the_flag:powers/invis"
+      }
+    },
+    {
+      "label": "Firework * 6",
+      "tooltip": "180 Power Points",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function capture_the_flag:powers/firework"
+      }
+    },
+    {
+      "label": "Ender Pearl",
+      "tooltip": "100 Power Points",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function capture_the_flag:powers/ender_pearl"
+      }
+    }
+  ]
+}

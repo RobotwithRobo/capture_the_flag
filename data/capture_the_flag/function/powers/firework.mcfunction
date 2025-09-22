@@ -1,0 +1,3 @@
+execute as @p[team=red] if score @s Powers >= Firework Powers run give @s firework_rocket[fireworks={flight_duration:2,explosions:[{shape:small_ball,colors:[I;16711680]}]}] 6
+execute as @p[team=blue] if score @s Powers >= Firework Powers run give @s firework_rocket[fireworks={flight_duration:2,explosions:[{shape:small_ball,colors:[I;3949738]}]}] 6
+execute as @p if score @s Powers >= Firework Powers run scoreboard players remove @s Powers 180

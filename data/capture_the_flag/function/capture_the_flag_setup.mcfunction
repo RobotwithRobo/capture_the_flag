@@ -13,7 +13,9 @@ scoreboard objectives add Kills minecraft.custom:minecraft.player_kills
 scoreboard objectives setdisplay below_name Kills
 # Power Scoreboard
 scoreboard objectives add Powers dummy
-scoreboard players set Invis Powers 180
+scoreboard players set Invisibility Powers 120
+scoreboard players set Firework Powers 180
+scoreboard players set Ender_Pearl Powers 100
 # Countdown
 title @a times 0s 1s 1s
 scoreboard objectives add countdown dummy

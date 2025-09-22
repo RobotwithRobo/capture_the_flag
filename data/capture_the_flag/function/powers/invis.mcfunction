@@ -1,0 +1,2 @@
+execute as @p if score @s Powers >= Invisibility Powers run give @s potion[potion_contents={custom_color:16383998,custom_effects:[{id:invisibility,duration:4800,amplifier:1,show_particles:0b,show_icon:0b}]},custom_name=[{"text":"Invisibility Potion","italic":false}]]
+execute as @p if score @s Powers >= Invisibility Powers run scoreboard players remove @s Powers 180
