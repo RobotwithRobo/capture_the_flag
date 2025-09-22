@@ -1,0 +1,2 @@
+execute as @a[predicate=capture_the_flag:invis,predicate=capture_the_flag:blue_banner_die] run effect clear @s glowing
+execute as @a[predicate=capture_the_flag:invis,predicate=capture_the_flag:red_banner_die] run effect clear @s glowing
