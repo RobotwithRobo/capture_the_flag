@@ -1,0 +1,3 @@
+function capture_the_flag:points
+schedule function capture_the_flag:powers 10s
+schedule function capture_the_flag:scoreboard_switch 20s

@@ -1,3 +1,4 @@
+# Scoreboards
 scoreboard objectives add red_death deathCount
 scoreboard objectives add blue_death deathCount
 scoreboard objectives add blue_flag_break minecraft.mined:blue_banner
@@ -10,7 +11,20 @@ scoreboard objectives add Health health
 scoreboard objectives setdisplay list Health
 scoreboard objectives add Kills minecraft.custom:minecraft.player_kills
 scoreboard objectives setdisplay below_name Kills
+# Power Scoreboard
 scoreboard objectives add Powers dummy
+scoreboard players set Invis Powers 180
+# Countdown
+title @a times 0s 1s 1s
+scoreboard objectives add countdown dummy
+scoreboard players set countdown countdown 3 
+scoreboard players set 3 countdown 3
+scoreboard players set 2 countdown 2
+scoreboard players set 1 countdown 1
+scoreboard players set 0 countdown 0
+scoreboard players set -1 countdown 0
+scoreboard players remove -1 countdown 1
+# Teams
 team add blue
 team add red
 team modify blue color blue

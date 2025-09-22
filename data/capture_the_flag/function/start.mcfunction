@@ -1,0 +1,4 @@
+scoreboard players reset @a Powers
+function capture_the_flag:iron_kit
+function capture_the_flag:powertick
+function capture_the_flag:countdown
