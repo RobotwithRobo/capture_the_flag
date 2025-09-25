@@ -10,7 +10,8 @@ execute as @a[team=blue] if score countdown countdown = 0 countdown run attribut
 execute as @a[team=red] if score countdown countdown = 0 countdown run attribute @s movement_speed base reset
 execute as @a[team=blue] if score countdown countdown = 0 countdown run attribute @s jump_strength base reset
 execute as @a[team=red] if score countdown countdown = 0 countdown run attribute @s jump_strength base reset
-execute at @a if score countdown countdown > -1 countdown run playsound entity.player.levelup ambient @a
+execute at @a if score countdown countdown > 0 countdown run playsound block.anvil.place ambient @a
+execute at @a if score countdown countdown = 0 countdown run playsound entity.player.levelup ambient @a
 execute if score countdown countdown > -1 countdown run scoreboard players remove countdown countdown 1
 execute if score countdown countdown > -1 countdown run schedule function capture_the_flag:countdown 1s
 execute if score countdown countdown = -1 countdown run scoreboard players set countdown countdown 3

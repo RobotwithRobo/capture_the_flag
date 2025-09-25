@@ -10,3 +10,4 @@ say ⬜⬜⬜⬜⬜
 say ⬜⬜⬜⬜⬜
 say ➖➖🟨
 say ➖➖🟨🟨
+function capture_the_flag:capture_the_flag_setup
