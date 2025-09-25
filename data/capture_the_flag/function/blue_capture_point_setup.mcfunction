@@ -1,2 +1,5 @@
-execute as @a[scores={blue_flag_placer=1..}] at @a[scores={blue_flag_placer=1..}] if predicate capture_the_flag:blue_flag_place run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b, Tags:["blue_return_point"]}
+execute as @a[scores={blue_flag_placer=1..}] at @a[scores={blue_flag_placer=1..}] if predicate capture_the_flag:blue_flag_place align xyz run tp @a[scores={blue_flag_placer=1..}] ~.5 ~ ~.5
+    execute as @a[scores={blue_flag_placer=1..}] at @a[scores={blue_flag_placer=1..}] if predicate capture_the_flag:blue_flag_place run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b, Tags:["blue_return_point"]}
+    execute as @a[scores={blue_flag_placer=1..}] at @a[scores={blue_flag_placer=1..}] if predicate capture_the_flag:blue_flag_place run fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 blue_concrete
+    execute as @a[scores={blue_flag_placer=1..}] at @a[scores={blue_flag_placer=1..}] if predicate capture_the_flag:blue_flag_place run clear @s carrot_on_a_stick
     execute at @a[scores={blue_flag_placer=1..}] run scoreboard players reset @a[scores={blue_flag_placer=1..}] blue_flag_placer

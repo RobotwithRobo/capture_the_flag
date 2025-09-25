@@ -5,3 +5,4 @@ scoreboard players reset @a Points
 function capture_the_flag:iron_kit
 function capture_the_flag:powersecond
 function capture_the_flag:countdown
+function capture_the_flag:scoreboard_switch

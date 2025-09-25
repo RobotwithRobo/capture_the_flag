@@ -16,7 +16,11 @@
           "mainhand": {
             "items": "minecraft:carrot_on_a_stick",
             "components": {
-              "minecraft:custom_name": "Blue Flag Placer"
+              "minecraft:custom_name": {
+                "text": "Blue Flag Placer",
+                "color": "blue",
+                "italic": false
+              }
             }
           }
         }
