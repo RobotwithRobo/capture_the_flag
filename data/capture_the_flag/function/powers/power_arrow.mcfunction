@@ -1,0 +1,2 @@
+execute as @p if score @s Powers >= Power_Arrow Powers run give @s minecraft:tipped_arrow[minecraft:potion_contents={custom_effects:[{id:instant_damage,duration:1,amplifier:252}]},custom_name={"text":"Power Arrow", "color":red,"italic":false }]
+execute as @p if score @s Powers >= Power_Arrow Powers run scoreboard players remove @s Powers 200

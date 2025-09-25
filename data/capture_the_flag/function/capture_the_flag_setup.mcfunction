@@ -16,6 +16,9 @@ scoreboard objectives add Powers dummy
 scoreboard players set Invisibility Powers 120
 scoreboard players set Firework Powers 180
 scoreboard players set Ender_Pearl Powers 100
+scoreboard players set Totem Powers 200
+scoreboard players set Power_Arrow Powers 200
+scoreboard players add Golden_Apple Powers 150
 # Countdown
 title @a times 0s 1s 1s
 scoreboard objectives add countdown dummy
@@ -35,5 +38,3 @@ team modify blue nametagVisibility hideForOtherTeams
 team modify red nametagVisibility hideForOtherTeams
 team modify blue friendlyFire false
 team modify red friendlyFire false
-give @s carrot_on_a_stick[custom_name="Blue Flag Placer"]
-give @s warped_fungus_on_a_stick[custom_name="Red Flag Placer"]

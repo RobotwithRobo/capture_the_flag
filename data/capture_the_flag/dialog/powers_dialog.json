@@ -28,6 +28,30 @@
         "type": "minecraft:run_command",
         "command": "function capture_the_flag:powers/ender_pearl"
       }
+    },
+    {
+      "label": "Totem",
+      "tooltip": "200 Power Points",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function capture_the_flag:powers/totem"
+      }
+    },
+    {
+      "label": "Power Arrow",
+      "tooltip": "200 Power Points",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function capture_the_flag:powers/power_arrow"
+      }
+    },
+    {
+      "label": "Golden Apple",
+      "tooltip": "150 Power Points",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function capture_the_flag:powers/golden_apple"
+      }
     }
   ]
 }
