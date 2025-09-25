@@ -11,6 +11,11 @@ scoreboard objectives add Health health
 scoreboard objectives setdisplay list Health
 scoreboard objectives add Kills minecraft.custom:minecraft.player_kills
 scoreboard objectives setdisplay below_name Kills
+
+# Trigger Scoreboards
+scoreboard objectives add Start trigger
+scoreboard objectives add Flag_Spawners trigger
+
 # Power Scoreboard
 scoreboard objectives add Powers dummy
 scoreboard players set Invisibility Powers 120
